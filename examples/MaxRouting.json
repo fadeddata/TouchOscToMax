@@ -1,0 +1,218 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "o.pack /rotary4",
+				"id" : "obj-29",
+				"numoutlets" : 1,
+				"style" : "",
+				"outlettype" : [ "FullPacket" ],
+				"numinlets" : 1,
+				"patching_rect" : [ 348.0, 228.0, 90.0, 22.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "o.pack /rotary3",
+				"id" : "obj-27",
+				"numoutlets" : 1,
+				"style" : "",
+				"outlettype" : [ "FullPacket" ],
+				"numinlets" : 1,
+				"patching_rect" : [ 246.0, 228.0, 90.0, 22.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "udpsend 127.0.0.1 8001",
+				"id" : "obj-24",
+				"numoutlets" : 0,
+				"style" : "",
+				"numinlets" : 1,
+				"patching_rect" : [ 159.0, 403.0, 140.0, 22.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "o.prepend /Drums",
+				"id" : "obj-21",
+				"numoutlets" : 1,
+				"style" : "",
+				"outlettype" : [ "FullPacket" ],
+				"numinlets" : 1,
+				"patching_rect" : [ 179.0, 310.0, 107.0, 22.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "o.pack /rotary2",
+				"id" : "obj-20",
+				"numoutlets" : 1,
+				"style" : "",
+				"outlettype" : [ "FullPacket" ],
+				"numinlets" : 1,
+				"patching_rect" : [ 146.0, 228.0, 90.0, 22.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "o.route /rotary2 /rotary3",
+				"id" : "obj-18",
+				"numoutlets" : 3,
+				"style" : "",
+				"outlettype" : [ "", "", "FullPacket" ],
+				"numinlets" : 1,
+				"patching_rect" : [ 146.0, 105.0, 136.0, 22.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "33",
+				"id" : "obj-13",
+				"numoutlets" : 1,
+				"style" : "",
+				"outlettype" : [ "" ],
+				"numinlets" : 2,
+				"patching_rect" : [ 189.0, 151.0, 50.0, 22.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "message",
+				"text" : "35",
+				"id" : "obj-11",
+				"numoutlets" : 1,
+				"style" : "",
+				"outlettype" : [ "" ],
+				"numinlets" : 2,
+				"patching_rect" : [ 115.0, 151.0, 50.0, 22.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "newobj",
+				"text" : "o.route /Drums",
+				"id" : "obj-3",
+				"numoutlets" : 2,
+				"style" : "",
+				"outlettype" : [ "", "FullPacket" ],
+				"numinlets" : 1,
+				"patching_rect" : [ 146.0, 64.0, 90.0, 22.0 ]
+			}
+
+		}
+ ],
+	"lines" : [ 		{
+			"patchline" : 			{
+				"source" : [ "obj-18", 1 ],
+				"destination" : [ "obj-13", 1 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-3", 0 ],
+				"destination" : [ "obj-18", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-18", 0 ],
+				"destination" : [ "obj-11", 1 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-21", 0 ],
+				"destination" : [ "obj-24", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-18", 0 ],
+				"destination" : [ "obj-11", 0 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-18", 1 ],
+				"destination" : [ "obj-13", 0 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 0 ],
+				"destination" : [ "obj-21", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-11", 0 ],
+				"destination" : [ "obj-20", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-13", 0 ],
+				"destination" : [ "obj-27", 0 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-27", 0 ],
+				"destination" : [ "obj-21", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-13", 0 ],
+				"destination" : [ "obj-29", 0 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-29", 0 ],
+				"destination" : [ "obj-21", 0 ]
+			}
+
+		}
+ ],
+	"appversion" : 	{
+		"major" : 7,
+		"minor" : 3,
+		"revision" : 4,
+		"architecture" : "x64",
+		"modernui" : 1
+	}
+
+}

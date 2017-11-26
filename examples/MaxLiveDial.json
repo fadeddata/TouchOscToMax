@@ -1,0 +1,67 @@
+{
+  "boxes": [
+    {
+      "box": {
+        "maxclass": "live.dial",
+        "varname": "live.dial[1]",
+        "outlettype": [
+          "",
+          "float"
+        ],
+        "patching_rect": [
+          284.0,
+          343.0,
+          44.0,
+          47.0
+        ],
+        "id": "obj-22",
+        "parameter_enable": 1,
+        "numinlets": 1,
+        "numoutlets": 2,
+        "saved_attribute_attributes": {
+          "valueof": {
+            "parameter_longname": "live.dial[1]",
+            "parameter_shortname": "live.dial[1]",
+            "parameter_type": 0,
+            "parameter_unitstyle": 0
+          }
+        }
+      }
+    },
+    {
+      "box": {
+        "maxclass": "live.dial",
+        "varname": "live.dial",
+        "outlettype": [
+          "",
+          "float"
+        ],
+        "patching_rect": [
+          205.0,
+          361.0,
+          44.0,
+          47.0
+        ],
+        "id": "obj-21",
+        "parameter_enable": 1,
+        "numinlets": 1,
+        "numoutlets": 2,
+        "saved_attribute_attributes": {
+          "valueof": {
+            "parameter_longname": "live.dial",
+            "parameter_shortname": "live.dial",
+            "parameter_type": 0,
+            "parameter_unitstyle": 0
+          }
+        }
+      }
+    }
+  ],
+  "appversion": {
+    "major": 7,
+    "minor": 3,
+    "revision": 4,
+    "architecture": "x86",
+    "modernui": 1
+  }
+}
