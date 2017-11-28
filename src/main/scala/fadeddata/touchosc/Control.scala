@@ -6,10 +6,22 @@ import scala.util.Try
 
 sealed trait Control {
   val node: Node
+
+  val _type: String
   val name: String = node.getName.get
   val attributes: ControlAttributes = ControlAttributes(node)
-  val _type: String
 }
+
+trait Scaled { this: Control =>
+  val scaleF: Double = node.attrFlatMap("scalef")(n => Try(n.text.toDouble).toOption).get
+  val scaleT: Double = node.attrFlatMap("scalet")(n => Try(n.text.toDouble).toOption).get
+}
+
+trait Centered { this: Control =>
+  val centered: Boolean = node.attrMap("centered")(n => n.text == "true").get
+}
+
+trait Variable extends Control with Scaled with Centered
 
 object Control {
   def apply(node: Node): Option[Control] =
@@ -20,6 +32,8 @@ object Control {
       case "faderv" => FaderV(node)
       case "multitoggle" => Multitoggle(node)
       case "labelv" => LabelV(node)
+      case "toggle" => Toggle(node)
+      case "push" => Push(node)
   }
 }
 
@@ -29,12 +43,6 @@ case class ControlAttributes(node: Node) {
   val y = node.attrFlatMap("y")(n => Try(n.text.toLong).toOption).get
   val width = node.attrFlatMap("w")(n => Try(n.text.toLong).toOption).get
   val height = node.attrFlatMap("h")(n => Try(n.text.toLong).toOption).get
-}
-
-sealed trait Variable extends Control {
-  val centered: Boolean = node.attrMap("centered")(n => n.text == "true").get
-  val scaleF: Double = node.attrFlatMap("scalef")(n => Try(n.text.toDouble).toOption).get
-  val scaleT: Double = node.attrFlatMap("scalet")(n => Try(n.text.toDouble).toOption).get
 }
 
 case class RotaryH(node: Node) extends Variable {
@@ -61,6 +69,14 @@ case class LabelV(node: Node) extends Control {
 case class LabelH(node: Node) extends Control {
   val text: String = node.attrMap("text")(n => n.text).get
   val _type = "labelh"
+}
+
+case class Toggle(node: Node) extends Control with Scaled {
+  val _type = "toggle"
+}
+
+case class Push(node: Node) extends Control with Scaled {
+  val _type = "push"
 }
 
 case class Multitoggle(node: Node) extends Control {

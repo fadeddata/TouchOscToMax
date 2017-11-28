@@ -95,6 +95,31 @@ object LiveToggle {
   }
 }
 
+case class LiveButton(id: String, initial: Option[Double], patchingRect: Array[Double]) extends MaxObject {
+  val maxClass: String = "live.button"
+  val numInlets: Int = 1
+  val numOutlets: Int = 1
+  val outletType: Array[String] = Array("")
+}
+
+object LiveButton {
+  implicit val encodeLiveToggle: Encoder[LiveButton] = new Encoder[LiveButton] {
+    final def apply(d: LiveButton): Json = {
+      val attr = MaxObject.savedAttributes(d, Json.obj(
+        "parameter_type" -> 2.asJson,
+        "parameter_mmax" -> 1.0.asJson,
+        "parameter_enum" -> Array("off", "on").asJson,
+        "parameter_initial_enable" -> d.initial.isDefined.asJson,
+        "parameter_initial" -> d.initial.toArray.asJson
+      ))
+
+      MaxObject.boxProperties(d, Json.obj(
+        "parameter_enable" -> 1.asJson
+      ).deepMerge(attr))
+    }
+  }
+}
+
 case class LiveDial(id: String, mmin: Double, mmax: Double, initial: Option[Double], patchingRect: Array[Double]) extends MaxObject {
   val maxClass: String = "live.dial"
   val numInlets: Int = 1
