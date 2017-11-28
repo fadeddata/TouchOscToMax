@@ -40,10 +40,10 @@
         <control background="true" color="green" h="80" name="bGFiZWwyMA==" outline="false" size="14" text="bi4gY29sb3I=" type="labelv" w="20" x="44" y="522"/>
         <control centered="true" color="green" h="80" inverted="false" name="a2lja19mX2Vudg==" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="522"/>
         <control background="true" color="green" h="80" name="bGFiZWwyMg==" outline="false" size="14" text="Zi4gZW52ZWxvcGU=" type="labelv" w="20" x="164" y="522"/>
-        <control color="green" h="40" local_off="false" name="cHVzaDE=" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="142"/>
-        <control color="green" h="40" local_off="false" name="cHVzaDI=" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="242"/>
-        <control color="green" h="40" local_off="false" name="cHVzaDM=" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="442"/>
-        <control color="green" h="40" local_off="false" name="cHVzaDQ=" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="542"/>
+        <control color="green" h="40" local_off="false" name="a2lja19wX2RlY2F5X2N1cnZl" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="142"/>
+        <control color="green" h="40" local_off="false" name="a2lja19hX2RlY2F5X2N1cnZl" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="242"/>
+        <control color="green" h="40" local_off="false" name="a2lja19uX2RlY2F5X2N1cnZl" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="442"/>
+        <control color="green" h="40" local_off="false" name="a2lja19uX2NvbG9yX2N1cnZl" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="542"/>
         <control centered="true" color="green" h="80" inverted="false" name="a2lja19maW5l" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="22"/>
         <control background="true" color="green" h="80" name="bGFiZWwyMw==" outline="false" size="14" text="ZmluZQ==" type="labelv" w="20" x="44" y="22"/>
         <control centered="true" color="blue" h="80" inverted="false" name="c25hcmVfb3NjX3Zfbm9pc2U=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="922"/>
