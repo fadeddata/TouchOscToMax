@@ -8,6 +8,7 @@ object MaxObject {
     case dial: LiveDial => dial.asJson
     case grid: LiveGrid => grid.asJson
     case toggle: LiveToggle => toggle.asJson
+    case button: LiveButton => button.asJson
     case newObj: NewObj => newObj.asJson
     case _ => Json.Null
   }
@@ -103,7 +104,7 @@ case class LiveButton(id: String, initial: Option[Double], patchingRect: Array[D
 }
 
 object LiveButton {
-  implicit val encodeLiveToggle: Encoder[LiveButton] = new Encoder[LiveButton] {
+  implicit val encodeLiveButton: Encoder[LiveButton] = new Encoder[LiveButton] {
     final def apply(d: LiveButton): Json = {
       val attr = MaxObject.savedAttributes(d, Json.obj(
         "parameter_type" -> 2.asJson,
