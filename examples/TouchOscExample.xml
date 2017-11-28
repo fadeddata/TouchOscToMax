@@ -1,84 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<layout version="16" mode="1" orientation="vertical">
-    <tabpage name="RHJ1bXM=" scalef="0.0" scalet="1.0" li_t="" li_c="gray" li_s="14" li_o="false" li_b="false" la_t="" la_c="gray" la_s="14" la_o="false" la_b="false">
-        <control name="bXVsdGl0b2dnbGUx" x="486" y="0" w="242" h="1024" color="red" scalef="0.0" scalet="1.0" type="multitoggle" number_x="4" number_y="16" ex_mode="false" local_off="false"/>
-        <control name="cm90YXJ5Mw==" x="384" y="2" w="100" h="100" color="red" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="ZGlyZWN0aW9u" x="364" y="2" w="20" h="100" color="red" type="labelv" text="ZGlyZWN0aW9u" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5NA==" x="384" y="122" w="100" h="100" color="red" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="c3RlcHM=" x="364" y="122" w="20" h="100" color="red" type="labelv" text="c3RlcHM=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5NQ==" x="384" y="242" w="100" h="100" color="red" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="b2Zmc2V0" x="364" y="242" w="20" h="100" color="red" type="labelv" text="b2Zmc2V0" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5Ng==" x="384" y="362" w="100" h="100" color="red" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="Z2F0ZQ==" x="364" y="362" w="20" h="100" color="red" type="labelv" text="Z2F0ZQ==" size="14" background="true" outline="false"/>
-        <control name="ZmFkZXI2" x="324" y="2" w="40" h="100" color="red" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="true"/>
-        <control name="ZmFkZXI3" x="284" y="2" w="40" h="100" color="blue" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="true"/>
-        <control name="ZmFkZXI4" x="324" y="122" w="40" h="100" color="red" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="true"/>
-        <control name="ZmFkZXI5" x="284" y="122" w="40" h="100" color="blue" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="true"/>
-        <control name="ZmFkZXIxMA==" x="324" y="242" w="40" h="100" color="red" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="true"/>
-        <control name="ZmFkZXIxMQ==" x="284" y="242" w="40" h="100" color="blue" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="true"/>
-        <control name="ZmFkZXIxMg==" x="324" y="362" w="40" h="100" color="red" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="true"/>
-        <control name="ZmFkZXIxMw==" x="284" y="362" w="40" h="100" color="blue" scalef="0.0" scalet="1.0" type="faderv" response="absolute" inverted="false" centered="true"/>
-        <control name="cm90YXJ5MTE=" x="184" y="22" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="true" norollover="true"/>
-        <control name="Y29hcnNl" x="164" y="22" w="20" h="80" color="green" type="labelv" text="Y29hcnNl" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5MTI=" x="184" y="122" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="true" norollover="true"/>
-        <control name="cm90YXJ5MTM=" x="184" y="222" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="cm90YXJ5MTQ=" x="184" y="322" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="cm90YXJ5MTU=" x="184" y="422" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWwxMg==" x="164" y="122" w="20" h="80" color="green" type="labelv" text="cC4gZW52ZWxvcGU=" size="14" background="true" outline="false"/>
-        <control name="bGFiZWwxMw==" x="164" y="222" w="20" h="80" color="green" type="labelv" text="c2hhcGU=" size="14" background="true" outline="false"/>
-        <control name="bGFiZWwxNA==" x="164" y="322" w="20" h="80" color="green" type="labelv" text="Y3V0b2Zm" size="14" background="true" outline="false"/>
-        <control name="bGFiZWwxNQ==" x="164" y="422" w="20" h="80" color="green" type="labelv" text="cmVzb25hbmNl" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5MTY=" x="64" y="122" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWwxNg==" x="44" y="126" w="20" h="80" color="green" type="labelv" text="cC4gZGVjYXk=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5MTc=" x="64" y="222" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="cm90YXJ5MTg=" x="64" y="322" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="true" norollover="true"/>
-        <control name="cm90YXJ5MTk=" x="64" y="422" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="cm90YXJ5MjA=" x="64" y="522" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWwxNw==" x="44" y="222" w="20" h="80" color="green" type="labelv" text="YS4gZGVjYXk=" size="14" background="true" outline="false"/>
-        <control name="bGFiZWwxOA==" x="44" y="322" w="20" h="80" color="green" type="labelv" text="b3NjIHYgbm9pc2U=" size="14" background="true" outline="false"/>
-        <control name="bGFiZWwxOQ==" x="44" y="422" w="20" h="80" color="green" type="labelv" text="bi4gZGVjYXk=" size="14" background="true" outline="false"/>
-        <control name="bGFiZWwyMA==" x="44" y="522" w="20" h="80" color="green" type="labelv" text="bi4gY29sb3I=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5MjI=" x="184" y="522" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="true" norollover="true"/>
-        <control name="bGFiZWwyMg==" x="164" y="522" w="20" h="80" color="green" type="labelv" text="Zi4gZW52ZWxvcGU=" size="14" background="true" outline="false"/>
-        <control name="cHVzaDE=" x="4" y="142" w="40" h="40" color="green" scalef="0.0" scalet="1.0" type="push" local_off="false" sp="true" sr="true"/>
-        <control name="cHVzaDI=" x="4" y="242" w="40" h="40" color="green" scalef="0.0" scalet="1.0" type="push" local_off="false" sp="true" sr="true"/>
-        <control name="cHVzaDM=" x="4" y="442" w="40" h="40" color="green" scalef="0.0" scalet="1.0" type="push" local_off="false" sp="true" sr="true"/>
-        <control name="cHVzaDQ=" x="4" y="542" w="40" h="40" color="green" scalef="0.0" scalet="1.0" type="push" local_off="false" sp="true" sr="true"/>
-        <control name="cm90YXJ5MjM=" x="64" y="22" w="80" h="80" color="green" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="true" norollover="true"/>
-        <control name="bGFiZWwyMw==" x="44" y="22" w="20" h="80" color="green" type="labelv" text="ZmluZQ==" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5MzI=" x="184" y="922" w="80" h="80" color="blue" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="true" norollover="true"/>
-        <control name="bGFiZWwzMg==" x="164" y="922" w="20" h="80" color="blue" type="labelv" text="b3NjIHYgbm9pc2U=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5MzM=" x="184" y="722" w="80" h="80" color="blue" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWwzMw==" x="164" y="722" w="20" h="80" color="blue" type="labelv" text="cC4gZW52ZWxvcGU=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5MzU=" x="64" y="822" w="80" h="80" color="blue" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWwzNQ==" x="44" y="822" w="20" h="80" color="blue" type="labelv" text="Y3V0b2Zm" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5MzY=" x="184" y="622" w="80" h="80" color="blue" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWwzNg==" x="164" y="622" w="20" h="80" color="blue" type="labelv" text="ZnJlcQ==" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5Mzc=" x="64" y="622" w="80" h="80" color="blue" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="cm90YXJ5Mzg=" x="64" y="922" w="80" h="80" color="blue" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWwzNw==" x="44" y="622" w="20" h="80" color="blue" type="labelv" text="ZGVjYXk=" size="14" background="true" outline="false"/>
-        <control name="bGFiZWwzOA==" x="44" y="922" w="20" h="80" color="blue" type="labelv" text="cmVzb25hbmNl" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5Mzk=" x="64" y="722" w="80" h="80" color="blue" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWwzOQ==" x="44" y="722" w="20" h="80" color="blue" type="labelv" text="ZGVjYXkgcmF0aW8=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5NDQ=" x="404" y="822" w="80" h="80" color="yellow" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWw0NA==" x="384" y="822" w="20" h="80" color="yellow" type="labelv" text="ZnJlcQ==" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5NDU=" x="404" y="922" w="80" h="80" color="yellow" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="true" norollover="true"/>
-        <control name="bGFiZWw0NQ==" x="384" y="922" w="20" h="80" color="yellow" type="labelv" text="b3NjIHYgbm9pc2U=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5NDY=" x="304" y="822" w="80" h="80" color="yellow" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWw0Ng==" x="284" y="822" w="20" h="80" color="yellow" type="labelv" text="Y3V0b2Zm" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5NDc=" x="304" y="922" w="80" h="80" color="yellow" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWw0Nw==" x="284" y="922" w="20" h="80" color="yellow" type="labelv" text="ZGVjYXk=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5NDg=" x="404" y="482" w="80" h="80" color="purple" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWw0OA==" x="384" y="482" w="20" h="80" color="purple" type="labelv" text="ZmVlZGJhY2s=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5NDk=" x="304" y="482" w="80" h="80" color="purple" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWw0OQ==" x="284" y="482" w="20" h="80" color="purple" type="labelv" text="aHA=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5NTA=" x="304" y="582" w="80" h="80" color="purple" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWw1MA==" x="284" y="582" w="20" h="80" color="purple" type="labelv" text="bHA=" size="14" background="true" outline="false"/>
-        <control name="cm90YXJ5NTE=" x="404" y="582" w="80" h="80" color="purple" scalef="0.0" scalet="1.0" type="rotaryh" response="absolute" inverted="false" centered="false" norollover="true"/>
-        <control name="bGFiZWw1MQ==" x="384" y="582" w="20" h="80" color="purple" type="labelv" text="bWl4" size="14" background="true" outline="false"/>
-        <control name="bGFiZWw1Mg==" x="404" y="682" w="20" h="40" color="purple" type="labelv" text="Z3JhaW4=" size="14" background="true" outline="false"/>
-        <control name="bGFiZWw1Mw==" x="304" y="682" w="20" h="40" color="purple" type="labelv" text="cG9uZw==" size="14" background="true" outline="false"/>
-        <control name="dG9nZ2xlMg==" x="424" y="682" w="40" h="40" color="purple" scalef="0.0" scalet="1.0" type="toggle" local_off="false"/>
-        <control name="dG9nZ2xlMw==" x="324" y="682" w="40" h="40" color="purple" scalef="0.0" scalet="1.0" type="toggle" local_off="false"/>
+<layout mode="1" orientation="vertical" version="16">
+    <tabpage la_b="false" la_c="gray" la_o="false" la_s="14" la_t="" li_b="false" li_c="gray" li_o="false" li_s="14" li_t="" name="RHJ1bXM=" scalef="10.0" scalet="1.0">
+        <control color="red" ex_mode="false" h="1024" local_off="false" name="c2VxMQ==" number_x="4" number_y="16" scalef="0.0" scalet="1.0" type="multitoggle" w="242" x="486" y="0"/>
+        <control centered="false" color="red" h="100" inverted="false" name="ZGlyZWN0aW9u" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="100" x="384" y="2"/>
+        <control background="true" color="red" h="100" name="ZGlyZWN0aW9u" outline="false" size="14" text="ZGlyZWN0aW9u" type="labelv" w="20" x="364" y="2"/>
+        <control centered="false" color="red" h="100" inverted="false" name="c3RlcHM=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="100" x="384" y="122"/>
+        <control background="true" color="red" h="100" name="c3RlcHM=" outline="false" size="14" text="c3RlcHM=" type="labelv" w="20" x="364" y="122"/>
+        <control centered="false" color="red" h="100" inverted="false" name="b2Zmc2V0" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="100" x="384" y="242"/>
+        <control background="true" color="red" h="100" name="b2Zmc2V0" outline="false" size="14" text="b2Zmc2V0" type="labelv" w="20" x="364" y="242"/>
+        <control centered="false" color="red" h="100" inverted="false" name="Z2F0ZQ==" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="100" x="384" y="362"/>
+        <control background="true" color="red" h="100" name="Z2F0ZQ==" outline="false" size="14" text="Z2F0ZQ==" type="labelv" w="20" x="364" y="362"/>
+        <control centered="true" color="red" h="100" inverted="false" name="ZGlyX2FfbW9k" response="absolute" scalef="0.0" scalet="1.0" type="faderv" w="40" x="324" y="2"/>
+        <control centered="true" color="blue" h="100" inverted="false" name="ZGlyX2JfbW9k" response="absolute" scalef="0.0" scalet="1.0" type="faderv" w="40" x="284" y="2"/>
+        <control centered="true" color="red" h="100" inverted="false" name="c3RlcHNfYV9tb2Q=" response="absolute" scalef="0.0" scalet="1.0" type="faderv" w="40" x="324" y="122"/>
+        <control centered="true" color="blue" h="100" inverted="false" name="c3RlcHNfYl9tb2Q=" response="absolute" scalef="0.0" scalet="1.0" type="faderv" w="40" x="284" y="122"/>
+        <control centered="true" color="red" h="100" inverted="false" name="b2Zmc2V0X2FfbW9k" response="absolute" scalef="0.0" scalet="1.0" type="faderv" w="40" x="324" y="242"/>
+        <control centered="true" color="blue" h="100" inverted="false" name="b2Zmc2V0X2JfbW9k" response="absolute" scalef="0.0" scalet="1.0" type="faderv" w="40" x="284" y="242"/>
+        <control centered="true" color="red" h="100" inverted="false" name="Z2F0ZV9hX21vZA==" response="absolute" scalef="0.0" scalet="1.0" type="faderv" w="40" x="324" y="362"/>
+        <control centered="true" color="blue" h="100" inverted="false" name="Z2F0ZV9iX21vZA==" response="absolute" scalef="0.0" scalet="1.0" type="faderv" w="40" x="284" y="362"/>
+        <control centered="true" color="green" h="80" inverted="false" name="a2lja19jb2Fyc2U=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="22"/>
+        <control background="true" color="green" h="80" name="Y29hcnNl" outline="false" size="14" text="Y29hcnNl" type="labelv" w="20" x="164" y="22"/>
+        <control centered="true" color="green" h="80" inverted="false" name="a2lja19wX2VudmVsb3Bl" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="122"/>
+        <control centered="false" color="green" h="80" inverted="false" name="a2lja19zaGFwZQ==" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="222"/>
+        <control centered="false" color="green" h="80" inverted="false" name="a2lja19jdXRvZmY=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="322"/>
+        <control centered="false" color="green" h="80" inverted="false" name="a2lja19yZXNvbmFuY2U=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="422"/>
+        <control background="true" color="green" h="80" name="bGFiZWwxMg==" outline="false" size="14" text="cC4gZW52ZWxvcGU=" type="labelv" w="20" x="164" y="122"/>
+        <control background="true" color="green" h="80" name="bGFiZWwxMw==" outline="false" size="14" text="c2hhcGU=" type="labelv" w="20" x="164" y="222"/>
+        <control background="true" color="green" h="80" name="bGFiZWwxNA==" outline="false" size="14" text="Y3V0b2Zm" type="labelv" w="20" x="164" y="322"/>
+        <control background="true" color="green" h="80" name="bGFiZWwxNQ==" outline="false" size="14" text="cmVzb25hbmNl" type="labelv" w="20" x="164" y="422"/>
+        <control centered="false" color="green" h="80" inverted="false" name="a2lja19wX2RlY2F5" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="122"/>
+        <control background="true" color="green" h="80" name="bGFiZWwxNg==" outline="false" size="14" text="cC4gZGVjYXk=" type="labelv" w="20" x="44" y="126"/>
+        <control centered="false" color="green" h="80" inverted="false" name="a2lja19hX2RlY2F5" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="222"/>
+        <control centered="true" color="green" h="80" inverted="false" name="a2lja19vc2Nfdl9ub2lzZQ==" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="322"/>
+        <control centered="false" color="green" h="80" inverted="false" name="a2lja19uX2RlY2F5" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="422"/>
+        <control centered="false" color="green" h="80" inverted="false" name="a2lja19uX2NvbG9y" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="522"/>
+        <control background="true" color="green" h="80" name="bGFiZWwxNw==" outline="false" size="14" text="YS4gZGVjYXk=" type="labelv" w="20" x="44" y="222"/>
+        <control background="true" color="green" h="80" name="bGFiZWwxOA==" outline="false" size="14" text="b3NjIHYgbm9pc2U=" type="labelv" w="20" x="44" y="322"/>
+        <control background="true" color="green" h="80" name="bGFiZWwxOQ==" outline="false" size="14" text="bi4gZGVjYXk=" type="labelv" w="20" x="44" y="422"/>
+        <control background="true" color="green" h="80" name="bGFiZWwyMA==" outline="false" size="14" text="bi4gY29sb3I=" type="labelv" w="20" x="44" y="522"/>
+        <control centered="true" color="green" h="80" inverted="false" name="a2lja19mX2Vudg==" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="522"/>
+        <control background="true" color="green" h="80" name="bGFiZWwyMg==" outline="false" size="14" text="Zi4gZW52ZWxvcGU=" type="labelv" w="20" x="164" y="522"/>
+        <control color="green" h="40" local_off="false" name="cHVzaDE=" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="142"/>
+        <control color="green" h="40" local_off="false" name="cHVzaDI=" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="242"/>
+        <control color="green" h="40" local_off="false" name="cHVzaDM=" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="442"/>
+        <control color="green" h="40" local_off="false" name="cHVzaDQ=" scalef="0.0" scalet="1.0" sp="true" sr="true" type="push" w="40" x="4" y="542"/>
+        <control centered="true" color="green" h="80" inverted="false" name="a2lja19maW5l" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="22"/>
+        <control background="true" color="green" h="80" name="bGFiZWwyMw==" outline="false" size="14" text="ZmluZQ==" type="labelv" w="20" x="44" y="22"/>
+        <control centered="true" color="blue" h="80" inverted="false" name="c25hcmVfb3NjX3Zfbm9pc2U=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="922"/>
+        <control background="true" color="blue" h="80" name="bGFiZWwzMg==" outline="false" size="14" text="b3NjIHYgbm9pc2U=" type="labelv" w="20" x="164" y="922"/>
+        <control centered="false" color="blue" h="80" inverted="false" name="c25hcmVfcF9lbnY=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="722"/>
+        <control background="true" color="blue" h="80" name="bGFiZWwzMw==" outline="false" size="14" text="cC4gZW52ZWxvcGU=" type="labelv" w="20" x="164" y="722"/>
+        <control centered="false" color="blue" h="80" inverted="false" name="c25hcmVfY3V0b2Zm" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="822"/>
+        <control background="true" color="blue" h="80" name="bGFiZWwzNQ==" outline="false" size="14" text="Y3V0b2Zm" type="labelv" w="20" x="44" y="822"/>
+        <control centered="false" color="blue" h="80" inverted="false" name="c25hcmVfZnJlcQ==" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="184" y="622"/>
+        <control background="true" color="blue" h="80" name="bGFiZWwzNg==" outline="false" size="14" text="ZnJlcQ==" type="labelv" w="20" x="164" y="622"/>
+        <control centered="false" color="blue" h="80" inverted="false" name="c25hcmVfZGVjYXk=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="622"/>
+        <control centered="false" color="blue" h="80" inverted="false" name="c25hcmVfcmVzb25hbmNl" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="922"/>
+        <control background="true" color="blue" h="80" name="bGFiZWwzNw==" outline="false" size="14" text="ZGVjYXk=" type="labelv" w="20" x="44" y="622"/>
+        <control background="true" color="blue" h="80" name="bGFiZWwzOA==" outline="false" size="14" text="cmVzb25hbmNl" type="labelv" w="20" x="44" y="922"/>
+        <control centered="false" color="blue" h="80" inverted="false" name="c25hcmVfZGVjYXlfcmF0aW8=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="64" y="722"/>
+        <control background="true" color="blue" h="80" name="bGFiZWwzOQ==" outline="false" size="14" text="ZGVjYXkgcmF0aW8=" type="labelv" w="20" x="44" y="722"/>
+        <control centered="false" color="yellow" h="80" inverted="false" name="aGF0c19mcmVx" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="404" y="822"/>
+        <control background="true" color="yellow" h="80" name="bGFiZWw0NA==" outline="false" size="14" text="ZnJlcQ==" type="labelv" w="20" x="384" y="822"/>
+        <control centered="true" color="yellow" h="80" inverted="false" name="aGF0c19vc2Nfdl9ub2lzZQ==" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="404" y="922"/>
+        <control background="true" color="yellow" h="80" name="bGFiZWw0NQ==" outline="false" size="14" text="b3NjIHYgbm9pc2U=" type="labelv" w="20" x="384" y="922"/>
+        <control centered="false" color="yellow" h="80" inverted="false" name="aGF0c19jdXRvZmY=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="304" y="822"/>
+        <control background="true" color="yellow" h="80" name="bGFiZWw0Ng==" outline="false" size="14" text="Y3V0b2Zm" type="labelv" w="20" x="284" y="822"/>
+        <control centered="false" color="yellow" h="80" inverted="false" name="aGF0c19kZWNheQ==" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="304" y="922"/>
+        <control background="true" color="yellow" h="80" name="bGFiZWw0Nw==" outline="false" size="14" text="ZGVjYXk=" type="labelv" w="20" x="284" y="922"/>
+        <control centered="false" color="purple" h="80" inverted="false" name="ZGVsYXlfZmVlZGJhY2s=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="404" y="482"/>
+        <control background="true" color="purple" h="80" name="bGFiZWw0OA==" outline="false" size="14" text="ZmVlZGJhY2s=" type="labelv" w="20" x="384" y="482"/>
+        <control centered="false" color="purple" h="80" inverted="false" name="ZGVsYXlfaHA=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="304" y="482"/>
+        <control background="true" color="purple" h="80" name="bGFiZWw0OQ==" outline="false" size="14" text="aHA=" type="labelv" w="20" x="284" y="482"/>
+        <control centered="false" color="purple" h="80" inverted="false" name="ZGVsYXlfbHA=" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="304" y="582"/>
+        <control background="true" color="purple" h="80" name="bGFiZWw1MA==" outline="false" size="14" text="bHA=" type="labelv" w="20" x="284" y="582"/>
+        <control centered="false" color="purple" h="80" inverted="false" name="ZGVsYXlfbWl4" norollover="true" response="absolute" scalef="0.0" scalet="1.0" type="rotaryh" w="80" x="404" y="582"/>
+        <control background="true" color="purple" h="80" name="bGFiZWw1MQ==" outline="false" size="14" text="bWl4" type="labelv" w="20" x="384" y="582"/>
+        <control background="true" color="purple" h="40" name="bGFiZWw1Mg==" outline="false" size="14" text="Z3JhaW4=" type="labelv" w="20" x="404" y="682"/>
+        <control background="true" color="purple" h="40" name="bGFiZWw1Mw==" outline="false" size="14" text="cG9uZw==" type="labelv" w="20" x="304" y="682"/>
+        <control color="purple" h="40" local_off="false" name="ZGVsYXlfZ3JhaW4=" scalef="0.0" scalet="1.0" type="toggle" w="40" x="424" y="682"/>
+        <control color="purple" h="40" local_off="false" name="ZGVsYXlfcG9uZw==" scalef="0.0" scalet="1.0" type="toggle" w="40" x="324" y="682"/>
     </tabpage>
 </layout>
